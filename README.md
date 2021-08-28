@@ -9,8 +9,8 @@ microCMS と Next.js を使い Jamstack なブログを作成するためのフ�
 
 ## 技術スタック
 
-フロント：Next.js
-UI ライブラリー：Material-UI v5
+フロント：Next.js  
+UI ライブラリー：Material-UI v5  
 バックエンド：microCMS
 
 ## インストール
