@@ -4,9 +4,8 @@ microCMS と Next.js を使い Jamstack なブログを作成するためのフ�
 
 ## 完成イメージ
 
+[サンプル - Sample](https://works.paths-are.com/jamstackblog-with-next-muiv5-microcms/)
 ![image](https://user-images.githubusercontent.com/70325458/131208090-2aff9b74-32f2-4669-9a74-52bd2d727448.png)
-![image](https://user-images.githubusercontent.com/70325458/131208096-764ea65f-9c58-4bdc-93b1-9323b090f0fe.png)
-![image](https://user-images.githubusercontent.com/70325458/131208102-1d623209-636f-4966-88a0-399b620cb66e.png)
 
 ## 技術スタック
 
