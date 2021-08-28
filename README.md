@@ -1,12 +1,20 @@
-#Next.js と microCMS の Jamstack ブログ
+# Next.js と microCMS の Jamstack ブログ
+
 microCMS と Next.js を使い Jamstack なブログを作成するためのフロントエンドのソースコードになります。バックエンドは microCMS でご自身で構築さい。
 
-#技術スタック
+## 完成イメージ
+
+![image](https://user-images.githubusercontent.com/70325458/131208090-2aff9b74-32f2-4669-9a74-52bd2d727448.png)
+![image](https://user-images.githubusercontent.com/70325458/131208096-764ea65f-9c58-4bdc-93b1-9323b090f0fe.png)
+![image](https://user-images.githubusercontent.com/70325458/131208102-1d623209-636f-4966-88a0-399b620cb66e.png)
+
+## 技術スタック
+
 フロント：Next.js
 UI ライブラリー：Material-UI v5
 バックエンド：microCMS
 
-##インストール
+## インストール
 
 ```shell
 git clone https://github.com/WSE-Developer3/jamstack-blog-with-nextjs-muiv5-microCMS.git
@@ -16,10 +24,11 @@ npm install
 npm run dev
 ```
 
-##microCMS の構築
+## microCMS の構築
+
 下記記事をご参考ください。
 
-##本番環境へのデプロイ手順
+## 本番環境へのデプロイ手順
 
 ```
 npm run export
