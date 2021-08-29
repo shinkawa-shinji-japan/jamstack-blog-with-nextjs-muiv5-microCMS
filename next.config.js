@@ -19,8 +19,8 @@ module.exports = {
   trailingSlash: true,
 
   /**
-   * ドメイン直下ではなく、下記のパスに配置する
-   * ドメイン直下に配置したい場合は、basePathはコメントアウトしてつかって下さい。
+   * ドメイン直下ではなく、下記のサブフォルダ配下に配置する
+   * ドメイン直下に配置したい場合は、basePathはコメントアウトして下さい。
    * 例）
    * https:my-domain-name.com/ → ×
    * https:my-domain-name.com/jamstackblog-with-next-muiv5-microcms → 〇
