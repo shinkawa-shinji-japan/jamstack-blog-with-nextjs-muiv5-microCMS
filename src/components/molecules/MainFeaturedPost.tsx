@@ -71,15 +71,6 @@ export default function MainFeaturedPost(props: MainFeaturedPostProps) {
             <Typography variant="h5" color="inherit" paragraph>
               {post.description}
             </Typography>
-            {/* <NextLink
-              variant="subtitle1"
-              // onClick={() => {
-              //   router.push(`/blog/${post.id}`);
-              // }}
-              href={`/blog/${post.id}`}
-            >
-              {post.linkText}
-            </NextLink> */}
             <NextLink href={`/blog/${post.id}`} passHref>
               <MuiLink variant="subtitle1">{post.linkText}</MuiLink>
             </NextLink>

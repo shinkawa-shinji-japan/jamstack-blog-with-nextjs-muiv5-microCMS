@@ -30,7 +30,6 @@ export default function FeaturedPost(props: FeaturedPostProps) {
         onClick={() => {
           router.push(`/blog/${post.id}`);
         }}
-        // href={`/blog/${post.id}`}
       >
         <Card sx={{ display: "flex", height: 160 }}>
           <CardContent sx={{ flex: 1 }}>

@@ -5,7 +5,7 @@ import Divider from "@material-ui/core/Divider";
 
 export interface postObject {
   title: string;
-  body: string;
+  body?: string;
 }
 
 interface MainPostDetailProps {
@@ -30,6 +30,7 @@ export default function MainPostDetail(props: MainPostDetailProps) {
         {post.title}
       </Typography>
       <Divider />
+
       <div
         dangerouslySetInnerHTML={{
           __html: `${post.body}`,

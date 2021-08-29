@@ -30,7 +30,6 @@ export default function PostItem(props: PostItemProps) {
         onClick={() => {
           router.push(`/blog/${post.id}`);
         }}
-        // href={`/blog/${post.id}`}
       >
         <Card sx={{ display: "flex", height: 136 }}>
           <CardContent sx={{ flex: 1 }}>
@@ -48,7 +47,6 @@ export default function PostItem(props: PostItemProps) {
             component="img"
             sx={{
               width: 160,
-              // maxHeight: 136,
               display: { xs: "none", sm: "block" },
               objectFit: "cover",
             }}
