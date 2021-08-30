@@ -29,7 +29,7 @@
     "local": "python -m http.server 8000",
     "start-static-html": "rm -r jamstackblog-with-next-muiv5-microcms/ && mkdir jamstackblog-with-next-muiv5-microcms && cp -r out/* jamstackblog-with-next-muiv5-microcms/ && start http://localhost:8000/jamstackblog-with-next-muiv5-microcms && npm run local",
     "deploy-to-xserver": "bash UPLOADFILES_TO_XSERVER.sh",
-    "comment": "Xサーバーへ静的htmlファイルをアップロードする"
+    "deploy-to-xserver-comment": "Xサーバーへ静的htmlファイルをアップロードする"
   },
   "devDependencies": {
     "@types/node": "latest",
